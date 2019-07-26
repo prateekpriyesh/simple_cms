@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'author/index'
   root 'home#index'
   get 'subject/index'
   get 'home/index'
